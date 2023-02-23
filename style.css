@@ -1,0 +1,57 @@
+body{
+    background: radial-gradient(ellipse at center, #A49986 0%, #A8CBB9 50%, #636F75 100%);
+}
+#quote-box {
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+}
+
+.center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+}
+
+#text {
+    font-size: 1.5rem;
+    color: #007bff
+}
+
+#author {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+#new-quote {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#tweet-quote {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration:none;
+}
+
+#github-profile{
+    /* display:block; */
+    margin-bottom: -50px;
+    text-align: right;
+}
